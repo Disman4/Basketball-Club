@@ -1,2 +1,3 @@
 # Basketball-Club
-HTML and CSS responsive website
+HTML and CSS responsive page
+
