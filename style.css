@@ -1,0 +1,85 @@
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 50px 50px 0 50px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.main{flex: 1;
+}
+
+.logo{
+    width: 11%;
+}
+
+.imgs{
+    width: 250px;
+    float: left;
+}
+
+.pics{
+    width: 50%;
+    float: left;
+}
+
+.card{
+    width: 45%;
+}
+
+.left-card{
+    display: inline-block;
+    border: 5px solid; 
+}
+
+.right-card{
+    float: right;
+    border: 5px solid; 
+}
+
+p{
+    padding: 10px;
+}
+
+h1{
+    font: 5rem;
+    text-align: center;
+    padding: 20px;
+}
+
+h2{
+    text-align: left;
+    padding-left: 10px;
+}
+
+footer {
+    text-align: center;
+    color: gold;
+  }
+
+.champions{
+    font-weight: 100;
+    color: gold;
+} 
+
+@media (max-width: 600px){
+    .card{
+        display: block;
+        width: 100%;
+    }
+
+    .card  {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+    }
+
+    .card img {
+        margin-bottom: 10px;
+        width: 100%;
+        display: inline;
+        object-fit: cover;
+      }
+}
